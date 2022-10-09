@@ -11,19 +11,11 @@ Steps:
   7-End
 */
 main() {
-  var num = 1, count = 1;
-  print("--- The $num Table ---");
-  while (num <= 12) {
-    if (count <= 10) {
+  main() {
+  for (var num = 1; num <= 12; num++) {
+    print("--- The $num Table --");
+    for (var count = 1; count <= 10; count++) {
       print("$num * $count = ${num * count}");
-      count += 1;
-    } else {
-      count = 1;
-      num += 1;
-      if (num != 13) {
-        print("--- The $num Table ---");
-      }
     }
   }
-  print("Done!");
 }
