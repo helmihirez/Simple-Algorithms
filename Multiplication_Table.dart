@@ -11,7 +11,6 @@ Steps:
   7-End
 */
 main() {
-  main() {
   for (var num = 1; num <= 12; num++) {
     print("--- The $num Table --");
     for (var count = 1; count <= 10; count++) {
